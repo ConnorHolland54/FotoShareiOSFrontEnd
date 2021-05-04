@@ -7,6 +7,8 @@ target 'FotoShareFrontEndIOS' do
 
   # Pods for FotoShareFrontEndIOS
 pod 'Firebase/Storage'
+pod 'Firebase/Firestore'
+pod 'FirebaseFirestoreSwift'
 
   target 'FotoShareFrontEndIOSTests' do
     inherit! :search_paths

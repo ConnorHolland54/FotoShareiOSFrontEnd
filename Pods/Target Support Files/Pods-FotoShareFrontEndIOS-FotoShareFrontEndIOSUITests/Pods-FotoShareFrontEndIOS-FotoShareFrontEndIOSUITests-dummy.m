@@ -1,5 +1,0 @@
-#import <Foundation/Foundation.h>
-@interface PodsDummy_Pods_FotoShareFrontEndIOS_FotoShareFrontEndIOSUITests : NSObject
-@end
-@implementation PodsDummy_Pods_FotoShareFrontEndIOS_FotoShareFrontEndIOSUITests
-@end

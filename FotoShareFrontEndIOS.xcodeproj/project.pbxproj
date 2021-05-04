@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -111,7 +111,6 @@
 				7EE60FA60765ACCBC5585A39 /* Pods-FotoShareFrontEndIOSTests.debug.xcconfig */,
 				C6BB647744844EFF1CBA5715 /* Pods-FotoShareFrontEndIOSTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -140,13 +139,9 @@
 		DEA002AB2640C5CD005D5BFB /* FotoShareFrontEndIOS */ = {
 			isa = PBXGroup;
 			children = (
-				DEA002AC2640C5CD005D5BFB /* AppDelegate.swift */,
-				DEA002AE2640C5CD005D5BFB /* SceneDelegate.swift */,
+				DEA002DC2640CB6B005D5BFB /* Resources */,
 				DEA002B02640C5CD005D5BFB /* ViewController.swift */,
 				DEA002B22640C5CD005D5BFB /* Main.storyboard */,
-				DEA002B52640C5CE005D5BFB /* Assets.xcassets */,
-				DEA002B72640C5CE005D5BFB /* LaunchScreen.storyboard */,
-				DEA002BA2640C5CE005D5BFB /* Info.plist */,
 			);
 			path = FotoShareFrontEndIOS;
 			sourceTree = "<group>";
@@ -167,6 +162,18 @@
 				DEA002D02640C5CE005D5BFB /* Info.plist */,
 			);
 			path = FotoShareFrontEndIOSUITests;
+			sourceTree = "<group>";
+		};
+		DEA002DC2640CB6B005D5BFB /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				DEA002AC2640C5CD005D5BFB /* AppDelegate.swift */,
+				DEA002AE2640C5CD005D5BFB /* SceneDelegate.swift */,
+				DEA002B52640C5CE005D5BFB /* Assets.xcassets */,
+				DEA002B72640C5CE005D5BFB /* LaunchScreen.storyboard */,
+				DEA002BA2640C5CE005D5BFB /* Info.plist */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -588,7 +595,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 265HY58XK9;
-				INFOPLIST_FILE = FotoShareFrontEndIOS/Info.plist;
+				INFOPLIST_FILE = FotoShareFrontEndIOS/Resources/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -608,7 +615,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 265HY58XK9;
-				INFOPLIST_FILE = FotoShareFrontEndIOS/Info.plist;
+				INFOPLIST_FILE = FotoShareFrontEndIOS/Resources/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
