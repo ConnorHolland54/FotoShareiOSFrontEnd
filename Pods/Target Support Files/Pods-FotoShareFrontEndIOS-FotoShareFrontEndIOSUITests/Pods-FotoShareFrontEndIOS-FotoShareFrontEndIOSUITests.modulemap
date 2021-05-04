@@ -1,0 +1,6 @@
+framework module Pods_FotoShareFrontEndIOS_FotoShareFrontEndIOSUITests {
+  umbrella header "Pods-FotoShareFrontEndIOS-FotoShareFrontEndIOSUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

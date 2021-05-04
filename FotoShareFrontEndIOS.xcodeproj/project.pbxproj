@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		634CAF90C0C788BE02B0E6B4 /* Pods_FotoShareFrontEndIOSTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1689F56B43C59DAEAE7C5A7 /* Pods_FotoShareFrontEndIOSTests.framework */; };
+		BFCBB88BE53CB30ACE12A720 /* Pods_FotoShareFrontEndIOS_FotoShareFrontEndIOSUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAD3B8B67103C895E9397F9C /* Pods_FotoShareFrontEndIOS_FotoShareFrontEndIOSUITests.framework */; };
+		C5AC02C4303059ED9C56A03C /* Pods_FotoShareFrontEndIOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02F728873872B800FA812AA0 /* Pods_FotoShareFrontEndIOS.framework */; };
 		DEA002AD2640C5CD005D5BFB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEA002AC2640C5CD005D5BFB /* AppDelegate.swift */; };
 		DEA002AF2640C5CD005D5BFB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEA002AE2640C5CD005D5BFB /* SceneDelegate.swift */; };
 		DEA002B12640C5CD005D5BFB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEA002B02640C5CD005D5BFB /* ViewController.swift */; };
@@ -35,6 +38,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		02F728873872B800FA812AA0 /* Pods_FotoShareFrontEndIOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FotoShareFrontEndIOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		582194F24445349BC36FFBF1 /* Pods-FotoShareFrontEndIOS-FotoShareFrontEndIOSUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FotoShareFrontEndIOS-FotoShareFrontEndIOSUITests.release.xcconfig"; path = "Target Support Files/Pods-FotoShareFrontEndIOS-FotoShareFrontEndIOSUITests/Pods-FotoShareFrontEndIOS-FotoShareFrontEndIOSUITests.release.xcconfig"; sourceTree = "<group>"; };
+		7EE60FA60765ACCBC5585A39 /* Pods-FotoShareFrontEndIOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FotoShareFrontEndIOSTests.debug.xcconfig"; path = "Target Support Files/Pods-FotoShareFrontEndIOSTests/Pods-FotoShareFrontEndIOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		AAD3B8B67103C895E9397F9C /* Pods_FotoShareFrontEndIOS_FotoShareFrontEndIOSUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FotoShareFrontEndIOS_FotoShareFrontEndIOSUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1689F56B43C59DAEAE7C5A7 /* Pods_FotoShareFrontEndIOSTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FotoShareFrontEndIOSTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6BB647744844EFF1CBA5715 /* Pods-FotoShareFrontEndIOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FotoShareFrontEndIOSTests.release.xcconfig"; path = "Target Support Files/Pods-FotoShareFrontEndIOSTests/Pods-FotoShareFrontEndIOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		DB2D05270FE2C05ECA65B529 /* Pods-FotoShareFrontEndIOS-FotoShareFrontEndIOSUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FotoShareFrontEndIOS-FotoShareFrontEndIOSUITests.debug.xcconfig"; path = "Target Support Files/Pods-FotoShareFrontEndIOS-FotoShareFrontEndIOSUITests/Pods-FotoShareFrontEndIOS-FotoShareFrontEndIOSUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		DEA002A92640C5CD005D5BFB /* FotoShareFrontEndIOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FotoShareFrontEndIOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DEA002AC2640C5CD005D5BFB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DEA002AE2640C5CD005D5BFB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +59,8 @@
 		DEA002CA2640C5CE005D5BFB /* FotoShareFrontEndIOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FotoShareFrontEndIOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DEA002CE2640C5CE005D5BFB /* FotoShareFrontEndIOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FotoShareFrontEndIOSUITests.swift; sourceTree = "<group>"; };
 		DEA002D02640C5CE005D5BFB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC50C96310E7B4C4508F35AB /* Pods-FotoShareFrontEndIOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FotoShareFrontEndIOS.debug.xcconfig"; path = "Target Support Files/Pods-FotoShareFrontEndIOS/Pods-FotoShareFrontEndIOS.debug.xcconfig"; sourceTree = "<group>"; };
+		F8B8F08939EEB7A3973A569C /* Pods-FotoShareFrontEndIOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FotoShareFrontEndIOS.release.xcconfig"; path = "Target Support Files/Pods-FotoShareFrontEndIOS/Pods-FotoShareFrontEndIOS.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C5AC02C4303059ED9C56A03C /* Pods_FotoShareFrontEndIOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				634CAF90C0C788BE02B0E6B4 /* Pods_FotoShareFrontEndIOSTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +84,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BFCBB88BE53CB30ACE12A720 /* Pods_FotoShareFrontEndIOS_FotoShareFrontEndIOSUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		45D0CF60929012084F910A2B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				02F728873872B800FA812AA0 /* Pods_FotoShareFrontEndIOS.framework */,
+				AAD3B8B67103C895E9397F9C /* Pods_FotoShareFrontEndIOS_FotoShareFrontEndIOSUITests.framework */,
+				C1689F56B43C59DAEAE7C5A7 /* Pods_FotoShareFrontEndIOSTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CFB2639D8D9CE72E53C6312E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EC50C96310E7B4C4508F35AB /* Pods-FotoShareFrontEndIOS.debug.xcconfig */,
+				F8B8F08939EEB7A3973A569C /* Pods-FotoShareFrontEndIOS.release.xcconfig */,
+				DB2D05270FE2C05ECA65B529 /* Pods-FotoShareFrontEndIOS-FotoShareFrontEndIOSUITests.debug.xcconfig */,
+				582194F24445349BC36FFBF1 /* Pods-FotoShareFrontEndIOS-FotoShareFrontEndIOSUITests.release.xcconfig */,
+				7EE60FA60765ACCBC5585A39 /* Pods-FotoShareFrontEndIOSTests.debug.xcconfig */,
+				C6BB647744844EFF1CBA5715 /* Pods-FotoShareFrontEndIOSTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		DEA002A02640C5CD005D5BFB = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +122,8 @@
 				DEA002C22640C5CE005D5BFB /* FotoShareFrontEndIOSTests */,
 				DEA002CD2640C5CE005D5BFB /* FotoShareFrontEndIOSUITests */,
 				DEA002AA2640C5CD005D5BFB /* Products */,
+				CFB2639D8D9CE72E53C6312E /* Pods */,
+				45D0CF60929012084F910A2B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -135,9 +176,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DEA002D32640C5CE005D5BFB /* Build configuration list for PBXNativeTarget "FotoShareFrontEndIOS" */;
 			buildPhases = (
+				21D70D557CC099D3043ECD26 /* [CP] Check Pods Manifest.lock */,
 				DEA002A52640C5CD005D5BFB /* Sources */,
 				DEA002A62640C5CD005D5BFB /* Frameworks */,
 				DEA002A72640C5CD005D5BFB /* Resources */,
+				6637C65EFEB248EBBFE5EEEC /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +195,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DEA002D62640C5CE005D5BFB /* Build configuration list for PBXNativeTarget "FotoShareFrontEndIOSTests" */;
 			buildPhases = (
+				FCCCDFA48E5F3BA74A67C620 /* [CP] Check Pods Manifest.lock */,
 				DEA002BB2640C5CE005D5BFB /* Sources */,
 				DEA002BC2640C5CE005D5BFB /* Frameworks */,
 				DEA002BD2640C5CE005D5BFB /* Resources */,
@@ -170,9 +214,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DEA002D92640C5CE005D5BFB /* Build configuration list for PBXNativeTarget "FotoShareFrontEndIOSUITests" */;
 			buildPhases = (
+				1111CD717A0856671DC4F431 /* [CP] Check Pods Manifest.lock */,
 				DEA002C62640C5CE005D5BFB /* Sources */,
 				DEA002C72640C5CE005D5BFB /* Frameworks */,
 				DEA002C82640C5CE005D5BFB /* Resources */,
+				55D7E6A7BA1911B8EA863CD6 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -252,6 +298,109 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1111CD717A0856671DC4F431 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FotoShareFrontEndIOS-FotoShareFrontEndIOSUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		21D70D557CC099D3043ECD26 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FotoShareFrontEndIOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		55D7E6A7BA1911B8EA863CD6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FotoShareFrontEndIOS-FotoShareFrontEndIOSUITests/Pods-FotoShareFrontEndIOS-FotoShareFrontEndIOSUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FotoShareFrontEndIOS-FotoShareFrontEndIOSUITests/Pods-FotoShareFrontEndIOS-FotoShareFrontEndIOSUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FotoShareFrontEndIOS-FotoShareFrontEndIOSUITests/Pods-FotoShareFrontEndIOS-FotoShareFrontEndIOSUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6637C65EFEB248EBBFE5EEEC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FotoShareFrontEndIOS/Pods-FotoShareFrontEndIOS-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FotoShareFrontEndIOS/Pods-FotoShareFrontEndIOS-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FotoShareFrontEndIOS/Pods-FotoShareFrontEndIOS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FCCCDFA48E5F3BA74A67C620 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FotoShareFrontEndIOSTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		DEA002A52640C5CD005D5BFB /* Sources */ = {
@@ -433,6 +582,7 @@
 		};
 		DEA002D42640C5CE005D5BFB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EC50C96310E7B4C4508F35AB /* Pods-FotoShareFrontEndIOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -452,6 +602,7 @@
 		};
 		DEA002D52640C5CE005D5BFB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F8B8F08939EEB7A3973A569C /* Pods-FotoShareFrontEndIOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -471,6 +622,7 @@
 		};
 		DEA002D72640C5CE005D5BFB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7EE60FA60765ACCBC5585A39 /* Pods-FotoShareFrontEndIOSTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -493,6 +645,7 @@
 		};
 		DEA002D82640C5CE005D5BFB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C6BB647744844EFF1CBA5715 /* Pods-FotoShareFrontEndIOSTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -515,6 +668,7 @@
 		};
 		DEA002DA2640C5CE005D5BFB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DB2D05270FE2C05ECA65B529 /* Pods-FotoShareFrontEndIOS-FotoShareFrontEndIOSUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -535,6 +689,7 @@
 		};
 		DEA002DB2640C5CE005D5BFB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 582194F24445349BC36FFBF1 /* Pods-FotoShareFrontEndIOS-FotoShareFrontEndIOSUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
