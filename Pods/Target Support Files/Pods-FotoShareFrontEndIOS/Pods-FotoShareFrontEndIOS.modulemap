@@ -1,6 +1,0 @@
-framework module Pods_FotoShareFrontEndIOS {
-  umbrella header "Pods-FotoShareFrontEndIOS-umbrella.h"
-
-  export *
-  module * { export * }
-}
